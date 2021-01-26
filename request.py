@@ -9,7 +9,7 @@ url_image = 'https://httpbin.org/image/jpeg'
 
 response_get = requests.get(url_get)
 response_post = requests.post(url_post)
-response_json = requests.get(url_json, headers=HEADERS_JSON)
+response_json = requests.get(url_json)
 response_image = requests.get(url_image)
 
 
