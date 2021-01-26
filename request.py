@@ -6,11 +6,6 @@ url_post = 'http://httpbin.org/post'
 url_json = 'https://httpbin.org/json'
 url_image = 'https://httpbin.org/image/jpeg'
 
-HEADERS_JSON = {
-    'Content-type': 'application/json', 
-    'Accept': 'text/plain'
-}
-
 
 response_get = requests.get(url_get)
 response_post = requests.post(url_post)
